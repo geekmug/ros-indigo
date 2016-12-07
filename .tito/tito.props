@@ -1,0 +1,7 @@
+[buildconfig]
+builder = com.github.geekmug.fetch.FetchBuilder
+tagger = tito.tagger.ReleaseTagger
+lib_dir = .tito/lib
+
+[builder]
+fetch_strategy = com.github.geekmug.fetch.DownloadSourceStrategy
